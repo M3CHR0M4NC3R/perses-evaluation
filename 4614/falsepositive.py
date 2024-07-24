@@ -50,6 +50,7 @@ def compare_pattern_data(expected_log_path, actual_log_path, bug_pattern_data):
             return False
 
     return True
+
 def read_json_from_file(file_path):
     '''
     Parse a json file.
@@ -89,10 +90,10 @@ def main():
             #print(issue)
             success = compare_pattern_data(expected_log, actual_log, issue[JsonKeys.BUG_PATTERN.value])
     #os.remove(actual_log)
-    #print(success)
+    print(success)
     if success:
-        print("0")
+        exit(0)
     else:
-        print("1")
+        exit(1)
 main()
 
