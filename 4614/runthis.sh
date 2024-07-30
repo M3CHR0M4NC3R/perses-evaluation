@@ -10,4 +10,4 @@ rm -rf "${directory}/output"
 cp -r input output
 
 [ -e perses_deploy.jar ] || wget 'https://github.com/uw-pluverse/perses/releases/download/v1.8/perses_deploy.jar'
-java -jar perses_deploy.jar --input-file input/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/Version.java --test-script input/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/falsepositive.sh --output-dir output/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/ --verbosity FINEST
+java -jar perses_deploy.jar --input-file input/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/Version.java --test-script input/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/falsepositive.sh --output-dir output/cf-parser-error/src/main/java/net/mtu/eggplant/checker/parser_error/
