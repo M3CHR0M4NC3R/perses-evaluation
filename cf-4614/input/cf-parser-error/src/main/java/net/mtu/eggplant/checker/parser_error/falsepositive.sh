@@ -1,7 +1,7 @@
 #!/bin/bash
 #compile command to be run before python script
 
-directory="/home/sam/repos/perses-evaluation/4614"
+directory="/home/sam/repos/perses-evaluation/cf-4614"
 expected="${directory}/expected_log.txt"
 inputted="${directory}/build_log.txt"
 test_json="${directory}/test_data.json"
