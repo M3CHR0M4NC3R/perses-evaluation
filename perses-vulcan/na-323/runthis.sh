@@ -10,4 +10,4 @@ rm -rf "${directory}/output"
 cp -r input output
 
 [ -e perses_deploy.jar ] || wget 'https://github.com/uw-pluverse/perses/releases/download/v2.0/perses_deploy.jar'
-java -jar perses_deploy.jar --enable-vulcan true --vulcan-fixpoint true --input-file input/src/main/java/com/cogvio/time/MutableClock.java --test-script input/src/main/java/com/cogvio/time/falsepositive.sh --output-dir output/src/main/java/com/cogvio/time/
+java -jar perses_deploy.jar --query-caching false --enable-vulcan true --vulcan-fixpoint true --input-file input/src/main/java/com/cogvio/time/MutableClock.java --test-script input/src/main/java/com/cogvio/time/falsepositive.sh --output-dir output/src/main/java/com/cogvio/time/
