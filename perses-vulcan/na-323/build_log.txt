@@ -1,0 +1,26 @@
+> Task :clean
+
+> Task :compileJava FAILED
+/Users/lain/repos/research/perses-evaluation/perses-vulcan/na-323/input/src/main/java/com/cogvio/time/PersesTempRoot_MutableClock.java_falsepositive.sh_20250227_122619_00/000003/na-error/src/main/java/com/cogvio/time/MutableClock.java:71: error: MutableClock is not abstract and does not override abstract method instant() in Clock
+class
+^
+1 error
+
+[Incubating] Problems report is available at: file:///Users/lain/repos/research/perses-evaluation/perses-vulcan/na-323/input/src/main/java/com/cogvio/time/PersesTempRoot_MutableClock.java_falsepositive.sh_20250227_122619_00/000003/na-error/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler output below.
+  /Users/lain/repos/research/perses-evaluation/perses-vulcan/na-323/input/src/main/java/com/cogvio/time/PersesTempRoot_MutableClock.java_falsepositive.sh_20250227_122619_00/000003/na-error/src/main/java/com/cogvio/time/MutableClock.java:71: error: MutableClock is not abstract and does not override abstract method instant() in Clock
+  class
+  ^
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 890ms
+2 actionable tasks: 2 executed
